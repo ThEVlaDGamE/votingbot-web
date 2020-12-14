@@ -1,0 +1,2 @@
+# votingbot-web
+Сайт VotingBot
