@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+
+<html>
+	
+<head>
+
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>VotingBot - простой и полезный бот</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<!-- Loading: Normalize, Grid and Styles -->
+		<link rel="stylesheet" href="assets/css/normalize.css" media="screen">
+		<link rel="stylesheet" href="assets/css/grid.css" media="screen">
+		<link rel="stylesheet" href="assets/css/style.css" media="screen">
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+
+		<!-- Loading: Font Awesome -->
+		<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+		<!--[if IE 7]>
+		<link rel="stylesheet" href="assets/font-awesome/css/font-awesome-ie7.min.css">
+		<![endif]-->
+
+		<!-- Loading: jQuery Magnific Popup Stylesheet -->
+		<link rel="stylesheet" href="assets/js/magnific/jquery.magnific-popup.css" media="screen">
+
+		<!-- Loading: jQuery Easy Pie Chart Stylesheet -->
+		<link rel="stylesheet" href="assets/js/easy-pie/jquery.easy-pie-chart.css" media="screen">
+
+		<link rel="shortcut icon" href="assets/img/icon.ico" type="image/png">
+
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<!-- Start: Intro -->
+		<section id="intro" class="fx-backstretch">
+			<div class="info">
+				<div class="container">
+					<div class="row">
+						<div class="col-full"><h1>VotingBot for Discord<span class="cool"></span></h1></div>
+					</div>
+					<div class="row"><div class="col-1-4 centered line"></div></div>
+					<div class="row">
+						<div class="col-full"><h4>Простой, бесплатый, полезный!</h4></div>
+						<div class="col-full"><h4>Префикс по-умолчанию - "!!"</h4></div>
+					</div>
+				</div>
+			</div>
+
+			<nav id="nav">
+				<ul class="clearfix">
+					<li><a href="#profile">Приветствие</a></li>
+					<li><a href="#skills">Команды</a></li>
+					<li><a href="#experience">Последние обновления</a></li>
+					<li><a href="#arhiv">Архивные обновления</a></li>
+				</ul>
+			</nav>
+		</section>
+		<!-- End: Intro -->
+
+		<!-- Start: Personal profile -->
+		<section id="profile" class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-full">
+						<h2 class="section-title">Добро пожаловать</h2>
+						<div class="centered line"></div>
+					</div>
+				</div>
+
+				<div class="row section-content wel-sec">
+					<div class="col-1-3">
+						<h4>Преимущества</h4>
+
+						<p>● Отключение команд</p>
+						<p>● Модерация</p>
+						<p>● Фан-команды и игры</p>
+						<p>● Система отзывов</p>
+						<p>● Система текстовых голосований</p>
+						<p>● Уровни</p>	
+					</div>
+					<div class="col-1-3">
+						<h4>Описание</h4>
+
+						<p>   Хочу посоветовать тебе своего бота. Он активно развивается и уже верификацирован!. Несмотря на то, что в нём уже есть немало команд, в том числе и уникальная система текстовых голосований, новые функции добавляются каждый день! Поэтому, если хочешь поддержать бота, добавь его к себе на сервер, а если хочешь его протестировать или предложить идею - зайди на наш сервер! Спасибо!</p>
+						<p>   Также, вы можете предложить свою команду или функцию, которую я могу добавить!</p>
+						<p>   А если вы JavaScript-разработчик, то, зайдя на сервер, можете вступить в нашу команду, оставив заявку в соответствующем канале</p>
+						<p>   И ещё я заключаю партнёрство!</p>
+					</div>
+					<div class="col-1-3">
+						<h4>Ссылки</h4>
+
+						<p><a href="https://discord.com/api/oauth2/authorize?client_id=757972564135116851&permissions=268565623&scope=bot" target="_blank">● Ссылка на приглашение бота (основная)</a></p>
+						<p><a href="https://discord.com/api/oauth2/authorize?client_id=757972564135116851&permissions=8&scope=bot" target="_blank">● Ссылка на приглашение бота (админ-права)</a></p>
+						<p><a href="https://discord.gg/GeauPDq" target="_blank">● Сервер поддержки</a></p>
+						<p><a href="https://qiwi.com/n/THEVLADGAME" target="_blank">● Qiwi-донат</a></p>
+						<iframe src="https://discord.com/widget?id=757984983792222429&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End: Personal profile -->
+
+		<!-- Start: Technical Skills -->
+		<section id="skills" class="section-alt">
+			<div class="container">
+				<div class="row">
+					<div class="col-full">
+						<h2 class="section-title">Команды</h2>
+						<div class="centered line"></div>
+					</div>
+				</div>
+
+				<div class="row section-content">
+					<div class="col-1-5">
+						<h4>1. Бот</h4>
+
+						<p>● help</p>
+						<p>● info</p>
+						<p>● invite</p>
+						<p>● buy-premium/bp</p>
+						<p>● secret</p>
+					</div>
+					<div class="col-1-5">
+						<h4>2. Инфомация</h4>
+
+						<p>● id</p>
+						<p>● userinfo/ui</p>
+						<p>● serverinfo/si</p>
+					</div>
+					<div class="col-1-5">
+						<h4>3. Настройки</h4>
+
+						<p>● setprefix</p>
+						<p>● command-off</p>
+						<p>● command-on</p>
+						<p>● disable-command-list/dcl</p>
+					</div>
+					<div class="col-1-5">
+						<h4>4. Голосования</h4>
+
+						<p>● vote</p>
+						<p>● votestart</p>
+						<p>● votecancel</p>
+						<p>● votecheck</p>
+						<p>● voteend</p>
+					</div>
+					<div class="col-1-5">
+						<h4>5. Модерация</h4>
+
+						<p>● addwarn</p>
+						<p>● removewarn</p>
+						<p>● checkwarns</p>
+						<p>● clearwarns</p>
+						<p>● ban</p>
+						<p>● unban</p>
+						<p>● kick</p>
+						<p>● say</p>
+						<p>● slowmode</p>
+						<p>● clear</p>
+					</div>
+					<div class="col-1-5">
+						<h4>6. Связь</h4>
+
+						<p>● leavefeedback/lf</p>
+					</div>
+					<div class="col-1-5">
+						<h4>7. Развлечения</h4>
+
+						<p>● heads-tails/ht</p>
+						<p>● guessnumber/gn</p>
+						<p>● roll</p>
+						<p>● transform</p>
+						<p>● server-random/sr</p>
+						<p>● click</p>
+						<p>● topclicks</p>
+						<p>● cross-zero/cz</p>
+					</div>
+					<div class="col-1-5">
+						<h4>8. Экономика</h4>
+
+						<p>● work</p>
+						<p>● balance/bal</p>
+					</div>
+					<div class="col-1-5">
+						<h4>9. Уровни</h4>
+
+						<p>● rank</p>
+						<p>● toprank</p>
+					</div>
+					<div class="col-1-5">
+						<h4>10. РП</h4>
+
+						<p>● try</p>
+						<p>● shot</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End: Technical Skills -->
+
+		<!-- Start: Work Experience -->
+		<section id="experience" class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-full">
+						<h2 class="section-title">Последние обновления</h2>
+						<div class="centered line"></div>
+					</div>
+				</div>
+				
+				
+
+				<div class="row section-content wel-sec">
+				    <div class="col-1-5">
+					    <h4>05.11.2020</h4>
+
+						<h5>Добавлено:</h5>
+						<p>1. Теперь на сайте есть виджет сервера</p>
+						
+						<h5>Изменено:</h5>
+                        <p> 1. Теперь в embedах, тот, кто вызвал команду показывается внизу, так же там показывается время выполнения и название команды</p>
+                        <p> 2. Теперь при ошибке синтаксиса в "command-off" показываются примеры</p>
+                        <p> 3. Теперь в команде "say", если у бота нет прав отправлять сообщение в указанный канал, выдаст ошибку</p>
+                        <p> 4. Теперь ограничение длины отзывы - 900 символов</p>
+                        <p> 5. Теперь в ответе на отзыв есть ссылка на сервер поддержки</p>
+                        <p> 6. Теперь подсказка про подробный хелп более явная</p>
+                        
+                        <p> 7. Теперь если в "heads-tails" не писать, что вы выбираете, просто выдаст результат</p>
+                        <p> 8. Теперь в "toprank global" и в "toprank server" можно листать страницы</p>
+                        <p> 9. Теперь при использовании "toprank global" пишется, что "вывод топа может занять несколько секунд", чтобы не казалось, что бот умер</p>
+                        <p> 10. Теперь во всех вариантах "toprank" (server, global, servers) показывается ваше место, или место сервера в топе и количество страниц</p>
+                        
+                        <h5>Исправлено:</h5>
+                        <p> 1. Теперь подсказки аргументов "click" показываются при каждом использовании команды</p>
+                        <p> 2. Исправлены сообщения об ошибке в "command-off"</p>
+                        <p> 3. Исправлена опечатка в "help"</p>
+                        <p> 4. Исправлена опечатка в "click"</p>
+					</div>
+				    <div class="col-1-5">
+					    <h4>03.11.2020</h4>
+
+						<h5>Добавлено:</h5>
+						<p>1. Добавлена команда "clear" - удаляет сообщения (сделал @Reset   b⃢ot. )</p>
+						
+						<h5>Изменено:</h5>
+						<p>1. Команды "click" и "topclicks" включены в ЛС боту</p>
+						<p>2. Теперь при использовании "click" показываются остальные возможные аргументы</p>
+						<p>3. Теперь в "topclicks" показывается только 10 человек, и можно менять страницу топа</p>
+						<p>4. Теперь в "invite" есть ссылка на сайт и на trello</p>
+						<p>5. Модуль "отзывы" переименован в "Оставить отзыв/идею/задать вопрос"</p>
+					</div>
+				    <div class="col-1-5">
+					    <h4>02.11.2020</h4>
+					    <h4>Обновление кликера!</h4>
+
+						<h5>Добавлено:</h5>
+						<p>1. Добавлены шансы на Х2, Х3, Х5 и Х10 к вашему доходу</p>
+						<p>2. Добавлена команда click stats для просмотра вашей статистики</p>
+						<p>3. Добавлена команда click up для прокачивания дохода от одного клика</p>
+						<p>4. Добавлена команда click c-box - открыть ящик за 10 кликов. Как казино - можно выиграть, можно проиграть</p>
+						<p>5. Добавлена команда click a-box - открыть ящик бесплатное каждые 20 кликов</p>
+					</div>
+					<div class="col-1-5">
+					    <h4>02.11.2020</h4>
+
+						<h5>Изменено:</h5>
+						<p>1. Изменение подсказок в cross-zero. Теперь все аргументы написаны</p>
+						<p>2. Изменены эмодзи крестика и нолика в крестиках-ноликах</p>
+						<p>3. Версия теперь - дата последнего перезапуска (деплоя на хост)</p>
+						<p>4. Добавлены 2 реплики в shot</p>
+						<p>5. Исправлено название Экономики</p>
+						<p>6. Теперь в userinfo вместо пинга можно использовать id</p>
+						<p>7. Теперь в toprank server можно писать номер страницы, тоесть смотреть весь топ</p>
+						<p>8. Теперь в info есть эмодзи</p>
+					</div>
+					<div class="col-1-5">
+						<h4>01.11.2020</h4>
+
+						<h5>Добавлено:</h5>
+						<p>1. Добавлена команда "roll" - выдаёт рандомное число от 0 до указанного</p>
+						<p>2. Добавлена команда toprank servers - показывает топ серверов по сообщениям. Однако первое время вместо названий серверов может быть их id, так как не собрано достаточно информации</p>
+						<p>3. Добавлена команда "unban". Однако она пока сырая, и может разбанить только по id</p>
+						<p>4. Добавлена команда "secret" для поиска пасхалок. Нужно просто ввести код</p>
+						<p>5. Добавлена мини-игра "крестики-нолики". Чтобы начать играть, используйте !!cz start</p>
+
+						<h5>Изменено:</h5>
+						<p>1. В команду "say" добавлен аргумент "anonym". Если его использовать, то не будет видно автора сообщения</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End: Work Experience -->
+
+		<section id="arhiv" class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-full">
+						<h2 class="section-title">Архивные обновления</h2>
+						<div class="centered line"></div>
+					</div>
+				</div>
+
+
+				
+
+				<div class="row section-content wel-sec">
+					<div class="col-1-5">
+						
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<footer>
+			<div class="container">
+			2020. Все права защищены. ThEVlaDGamE#9465
+			</div>
+		</footer>
+
+		<!-- Loading: jQuery and custom script -->
+		<script src="assets/js/jquery-1.10.2.min.js"></script>
+		<script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+
+		<script type="text/javascript">
+			$(function(){
+					$("a[href^='#']").click(function(){
+							var _href = $(this).attr("href");
+							$("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+							return false;
+					});
+			});
+		</script>
+
+		<!-- Loading: jQuery MixItUp (portfolio filters) -->
+		<script src="assets/js/jquery.mixitup.min.js"></script>
+
+		<!-- Loading: jQuery Magnific Popup (lightbox) -->
+		<script src="assets/js/magnific/jquery.magnific-popup.min.js"></script>
+
+		<!-- Loading: jQuery Easy Pie Chart -->
+		<script src="assets/js/easy-pie/jquery.easy-pie-chart.js"></script>
+
+		<!-- Loading: jQuery Sticky -->
+		<script src="assets/js/jquery.sticky.js"></script>
+
+		<!-- Loading: jQuery Backstretch (full photo background) -->
+		<script src="assets/js/jquery.backstretch.min.js"></script>
+
+		<!-- Loading, Setting Up: Form, Form Validation Plugin -->
+		<script src="assets/js/jquery.form.min.js" type="text/javascript"></script>
+		<script src="assets/js/jquery.validate.min.js" type="text/javascript"></script>
+		<script src="assets/js/jquery.validation.settings.js" type="text/javascript"></script>
+
+		<!-- Loading: Respond.js - Responsive IE8 -->
+		<script src="assets/js/respond.min.js"></script>
+
+		<script src="assets/js/jquery.scrollto.min.js"></script>
+		<script src="assets/js/jquery.nav.js"></script>
+
+		<!--[if lt IE 9]>
+		<script src="assets/js/excanvas.js"></script>
+		<![endif]-->
+
+		<!-- Loading: Custom scripting -->
+		<script src="assets/js/custom.js" type="text/javascript"></script>
+
+	</body>
+
+</html>
